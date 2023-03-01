@@ -1,0 +1,43 @@
+h1 {
+  color: darkred;
+}
+.box {
+  width: 450px;
+  background: transparent;
+  padding: 30px;
+  transform: translate(100%, 70%);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  text-align: center;
+  background-color: cyan;
+}
+.inputbox input {
+  height: 20px;
+  background: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.inputbox select {
+  height: 25px;
+  width: 100px;
+  background: white;
+  text-align: center;
+  font-weight: bold;
+}
+.submit input {
+  width: 50%;
+  border-radius: 25px;
+  height: 40px;
+  border: none;
+  transition: 0.3s;
+  background-color: rosybrown;
+  color: white;
+}
+.submit input:hover {
+  background-color: red;
+  transform: translateY(-5px);
+}
+p {
+  font-size: 30px;
+}
